@@ -1,0 +1,26 @@
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+"firstName": "John",
+  "lastName": "Doe",
+  "age": 33
+}
+
+###
+GET http://localhost:8080/api/students
+Accept: application/json
+
+###
+GET http://localhost:8080/api/students?namePart=cap
+Accept: application/json
+
+###
+GET http://localhost:8080/api/students?age=33
+Accept: application/json
+
+###
+GET http://localhost:8080/api/students?namePart=doe&age=33
+Accept: application/json
+
+###
