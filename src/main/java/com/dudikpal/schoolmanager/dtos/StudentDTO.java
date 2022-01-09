@@ -1,4 +1,4 @@
-package com.dudikpal.schoolmanager.dto;
+package com.dudikpal.schoolmanager.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

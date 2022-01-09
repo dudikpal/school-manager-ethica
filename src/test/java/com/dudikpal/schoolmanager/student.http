@@ -1,4 +1,5 @@
-POST http://localhost:8080/api/students
+### Create student
+POST http://localhost:8080/school/api/students
 Content-Type: application/json
 
 {
@@ -7,27 +8,31 @@ Content-Type: application/json
   "age": 33
 }
 
-###
-GET http://localhost:8080/api/students
+
+### Get all students
+GET http://localhost:8080/school/api/students
 Accept: application/json
 
-###
-GET http://localhost:8080/api/students?namePart=cap
+
+### Get student(s), who name include namePart
+GET http://localhost:8080/school/api/students?namePart=cap
 Accept: application/json
 
-###
-GET http://localhost:8080/api/students?age=33
+
+### Get student(s) with age 33
+GET http://localhost:8080/school/api/students?age=33
 Accept: application/json
 
-###
-GET http://localhost:8080/api/students?namePart=doe&age=33
+
+### Get student(s), who name include namePart AND with age 44
+GET http://localhost:8080/school/api/students?namePart=cap&age=44
 Accept: application/json
 
-###
-PUT http://localhost:8080/api/students/1
+
+### Update student first name
+PUT http://localhost:8080/school/api/students/1
 Content-Type: application/json
 
 {
-  "firstName": "Pokalakki"}
-
-###
+  "firstName": "Pokalakki"
+}

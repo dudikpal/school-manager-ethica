@@ -3,7 +3,6 @@ package com.dudikpal.schoolmanager.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Data

@@ -13,9 +13,4 @@ public class SchoolManagerApplication {
         SpringApplication.run(SchoolManagerApplication.class, args);
     }
 
-    @Bean
-    public ModelMapper modemMapper() {
-        return new ModelMapper();
-    }
-
 }
